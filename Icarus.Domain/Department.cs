@@ -11,7 +11,7 @@ namespace Icarus.Domain
 
 		public int Id { get; set; }
 		public string name { get; set; }
-		public List<Contact> Contacts {get; set;}
+		public List<Contact> Contacts { get; set; }
 
 	}
 }
