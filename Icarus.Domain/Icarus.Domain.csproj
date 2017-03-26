@@ -35,6 +35,8 @@
     <Compile Include="Finding.cs" />
     <Compile Include="Project.cs" />
     <Compile Include="Contact.cs" />
+    <Compile Include="Pentester.cs" />
+    <Compile Include="Department.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
