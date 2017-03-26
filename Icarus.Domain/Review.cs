@@ -10,6 +10,7 @@ namespace Icarus.Domain
 		}
 
 		int Id { get; set; }
+		string name { get; set; }
 		List<Finding> Findings { get; set; }
 	}
 }
