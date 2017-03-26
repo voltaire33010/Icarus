@@ -10,10 +10,11 @@ namespace Icarus.Domain
 			Pentesters = new List<Pentester>();
 		}
 
-		int Id { get; set; }
-		string name { get; set; }
-		Contact contact { get; set; }
-		List<Pentester> Pentesters { get; set; }
-		List<Finding> Findings { get; set; }
+		public int Id { get; set; }
+		public string name { get; set; }
+		public Contact contact { get; set; }
+		public List<Pentester> Pentesters { get; set; }
+		public List<Finding> Findings { get; set; }
+		public int ProjectId { get; set;}
 	}
 }
